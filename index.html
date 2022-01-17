@@ -1,0 +1,139 @@
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HTML Lists</title>
+      <style>
+   .flex-container {
+   display: flex;
+   background-color: rgb(245, 222, 194);
+   border: solid rgb(233, 17, 125);
+   border-radius: 3px;
+   padding: 45px;   
+   margin: 30px;
+      flex-basis: content;
+   flex-direction:column;    
+   width: 90%;
+   align-items: center;
+   line-height: 28px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+
+}
+
+.li {
+    color:brown;
+    gap:5px;
+    
+}
+ .aligned {
+        vertical-align: middle;
+       
+}
+
+.button {
+      margin-left: 200px;
+      width: 180px;
+      background-color: rgb(145, 130, 214);
+  }
+ h1 {
+     color:rgb(28, 103, 243);
+     align-self: center;
+ }
+
+ .circledList {
+     list-style-type: circle;
+ }
+
+
+       </style>
+       <body>
+          <script>
+            
+          </script>
+
+        <div style="overflow-x:auto;">
+               
+            <div class="flex-container">
+                <h1>Courses Offered</h1>
+                <br>
+                
+                <div>
+                    <ul>
+                        <li>
+                            Programming Language
+                                <ul>
+                                    <li class="circledList">
+                                        JavaScript
+                                        <ol type="a">
+                                            <li>
+                                                Angular
+                                            </li>
+                                            <li>
+                                                React
+                                            </li>
+                                            <li>
+                                                Vue.js
+                                            </li>
+                                        </ol>
+
+                                       </li>
+                                    <li class="circledList">
+                                        Python
+                                        <ol type="a">
+                                            <li>
+                                                Django Framework
+                                            </li>
+                                            <li>
+                                                Flask Framework
+                                            </li>
+                                            
+                                        </ol>
+                                    </li>
+                                    <li class="circledList">
+                                        Java
+                                        <ol type="a">
+                                            <li>
+                                                Spring
+                                            </li>
+                                            <li>
+                                                Maven
+                                            </li>
+                                            <li>
+                                                Hibernate
+                                            </li>
+                                        </ol>
+                                    </li>
+                                </ul>
+                        </li>
+                           
+                        <li>
+                
+                         Database
+                            <ul>
+                                <li class="circledList">
+                                    MySQL
+                                </li>
+                                <li class="circledList">
+                                    MongoDB
+                                </li>
+                                <li class="circledList">
+                                    Cansandra
+                                </li>
+                            </ul>
+
+                        </li>
+
+
+                    </ul>
+                </div>
+
+           
+              </div>
+           </div>
+                      
+       </body>
+
+       </head>
+  
